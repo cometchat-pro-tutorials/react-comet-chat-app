@@ -8,6 +8,11 @@
   height: 50vh;
 }
 
+.App p{
+  font-size: 12px;
+  width: 50%;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 0.5s linear;
   height: 10vmin;

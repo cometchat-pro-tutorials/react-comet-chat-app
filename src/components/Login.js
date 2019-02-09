@@ -68,6 +68,7 @@ class Login extends React.Component {
     return (
       <div className="App">
         <h1>COMET CHAT</h1>
+        <p>Create an account through your CometChat dashboard or login with one of our test users, superhero1, superhero2, etc.</p>
         <form className="form" onSubmit={this.onSubmit}>
           <input onChange={this.handleInputChange} type="text" />
           <span className="error">{this.state.errorMessage}</span>
