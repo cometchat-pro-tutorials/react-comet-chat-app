@@ -1,7 +1,6 @@
 import { CometChat } from "@cometchat-pro/chat";
 
 export default class CCManager {
-  static cometchat = null;
   static LISTENER_KEY_MESSAGE = "msglistener";
 
   static appId = ""; //Enter your App ID

@@ -1,67 +1,30 @@
-COMET CHAT DEMO APP
-  
-## Screenshots
+# WEB CHAT APP WITH REACTJS EXAMPLES
 
-<img align="center" src="https://github.com/samie820/react-cometchat-app/blob/master/src/screenshots/login.png" style="width:75%;"/>
+This example shows how to build a group chat with Javascript and React. 
 
-<img align="center" src="https://github.com/samie820/react-cometchat-app/blob/master/src/screenshots/chat-screen.png" style="width:75%;"/>
+SCREENSHOTS
 
+<img align="center" src="https://raw.githubusercontent.com/samie820/react-cometchat-app/master/src/screenshots/chat-screen.png" style="width:75%;"/>
 
-## Config Development Environment
-
-Setup your development environment for **Reactjs** Sample. 
-
-If you don't have node install, Please download appropriate version from official website: [Nodejs.org](https://nodejs.org/)
-
-Once node and npm is installed successfully. You can verify from running following  command : 
-```bash
-
-node -v
-
-```
-```bash
-
-npm -v
-
-```
+<img align="center" src="https://raw.githubusercontent.com/samie820/react-cometchat-app/master/src/screenshots/login.png" style="width:75%;"/>
 
 
-Now you are ready to sync application dependencies.  Please follow the following steps:
+Jump straight into the code or read the accompanying step-by-step guide here on our blog.
 
+## Technology
+This demo uses:
 
+* CometChat Pro JS SDK
+* Javascript
+* ReactJS
 
-1. Install packages 
+## Running the demo locally
+* Download the repository [here](https://github.com/samie820/react-cometchat-app.git) or by running `git clone https://github.com/samie820/react-cometchat-app.git`
+* Run the command `npm install or yarn install`
+* Then run `npm start or yarn start`
 
+## Useful links
 
-  
-
-```bash
-
-npm install
-
-```
-
-Please Check **package.json** file for the dependency list. 
-
-<br></br>
-  
-
-## Config Chat App
-
-  
-Please change  `appId` and `apiKey` in *src/lib/chat.js* to the provided credentials.
-
-## Run the Demo App
-
-
-1. Test the demo app 
-
-You can test the demo app with local server by running the following command.
-
-```bash
-
-npm start
-
-```
-
-Navigate to **localhost:3000** to check sample app.  You can update host in **package.json** file.   
+* 📚Tutorial showing how we built this ample - Coming soon
+* [CometChat homepage](https://www.cometchat.com)
+* [CometChat JS SDK documentation](https://prodocs.cometchat.com/docs/js-quick-start)
