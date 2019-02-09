@@ -9,7 +9,6 @@ export default class CCManager {
   static LISTENER_KEY_GROUP = "grouplistener";
 
   static init() {
-    //initialize cometchat manager
     return CometChat.init(CCManager.appId);
   }
 
@@ -65,10 +64,6 @@ export default class CCManager {
       new CometChat.MessageListener({
         onTextMessageReceived: textMessage => {
           callback(textMessage);
-        },
-        onMediaMessageReceived: mediaMessage => {
-          console.log("Media message received successfully", mediaMessage);
-          // Handle media message
         }
       })
     );

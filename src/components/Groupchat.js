@@ -17,13 +17,11 @@ class Groupchat extends React.Component {
     this.GUID = "supergroup";
   }
 
-  // send messages to the group
-  sendMessage() {
+  sendMessage = () => {
     chat.sendGroupMessage(this.GUID, this.state.messageText).then(
       message => {
         console.log("Message sent successfully:", message);
         this.setState({ messageText: null });
-        // this.update();
       },
       error => {
         console.log("Message sending failed with error:", error);
@@ -31,7 +29,6 @@ class Groupchat extends React.Component {
     );
   }
 
-  // function to always show the bottom of the chat screen
   scrollToBottom = () => {
     const chat = document.getElementById("chatList");
     chat.scrollTop = chat.scrollHeight;
