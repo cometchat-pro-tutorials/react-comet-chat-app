@@ -14,7 +14,7 @@ class Groupchat extends React.Component {
       isAuthenticated: true
     };
 
-    this.GUID = "supergroup";
+    this.GUID = "";
   }
 
   sendMessage = () => {

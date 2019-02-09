@@ -20,7 +20,7 @@ This demo uses:
 
 ## Running the demo locally
 * Download the repository [here](https://github.com/samie820/react-cometchat-app.git) or by running `git clone https://github.com/samie820/react-cometchat-app.git`
-* Run the command `npm install or yarn install`
+* Run the command `npm install or yarn`
 * Then run `npm start or yarn start`
 
 ## Useful links
