@@ -1,6 +1,7 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 import chat from "../lib/chat";
+import config from "../config";
 
 class Groupchat extends React.Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class Groupchat extends React.Component {
       isAuthenticated: true
     };
 
-    this.GUID = "";
+    this.GUID = config.GUID;
   }
 
   sendMessage = () => {
@@ -27,7 +28,7 @@ class Groupchat extends React.Component {
         console.log("Message sending failed with error:", error);
       }
     );
-  }
+  };
 
   scrollToBottom = () => {
     const chat = document.getElementById("chatList");

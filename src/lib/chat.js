@@ -1,10 +1,11 @@
 import { CometChat } from "@cometchat-pro/chat";
+import config from "../config";
 
 export default class CCManager {
   static LISTENER_KEY_MESSAGE = "msglistener";
 
-  static appId = ""; //Enter your App ID
-  static apiKey = ""; //Enter your API KEY
+  static appId = config.appId;
+  static apiKey = config.apiKey;
   static LISTENER_KEY_GROUP = "grouplistener";
 
   static init() {
