@@ -4,9 +4,9 @@ This example shows how to build a group chat with Javascript and React.
 
 SCREENSHOTS
 
-<img align="center" src="https://raw.githubusercontent.com/samie820/react-cometchat-app/master/src/screenshots/chat-screen.png" style="width:75%;"/>
+<img align="center" src="https://raw.githubusercontent.com/samie820/react-cometchat-app/master/screenshots/chat-screen.png" style="width:75%;"/>
 
-<img align="center" src="https://raw.githubusercontent.com/samie820/react-cometchat-app/master/src/screenshots/login.png" style="width:75%;"/>
+<img align="center" src="https://raw.githubusercontent.com/samie820/react-cometchat-app/master/screenshots/login.png" style="width:75%;"/>
 
 
 Jump straight into the code or read the accompanying step-by-step guide here on our blog.
