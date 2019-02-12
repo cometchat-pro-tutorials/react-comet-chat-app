@@ -21,6 +21,15 @@ This demo uses:
 ## Running the demo locally
 * Download the repository [here](https://github.com/samie820/react-cometchat-app.git) or by running `git clone https://github.com/samie820/react-cometchat-app.git`
 * Run the command `npm install or yarn`
+* Add your `appId` and `apiKey` to `/src/lib/chat.js`
+* Add your GUID to the constructor function in `/src/components/Groupchat.js` like below:
+```javascript
+      constructor(props) {
+    super(props);
+    ...
+    this.GUID = ""; // ADD IT HERE
+  }
+```
 * Then run `npm start or yarn start`
 
 ## Useful links
