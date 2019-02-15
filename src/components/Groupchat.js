@@ -25,7 +25,11 @@ class Groupchat extends React.Component {
         this.setState({ messageText: null });
       },
       error => {
-        console.log("Message sending failed with error:", error);
+        if (error.code === "ERR_NOT_A_MEMBER") {
+          chat.joinGroup(this.GUID).then(response => {
+            this.sendMessage();
+          });
+        }
       }
     );
   };
@@ -78,6 +82,7 @@ class Groupchat extends React.Component {
   componentDidMount() {
     this.getUser();
     this.messageListener();
+    // chat.joinGroup(this.GUID)
   }
 
   render() {
